@@ -30,7 +30,7 @@ Hi, I am Adithi. I am a Discord community manager. I am also interested in softw
                 </p>
               </div>
               <div className={`order-first lg:order-last flex-shrink-0 relative w-[160px] h-[160px] rounded-full pulse-avatar-online `}>
-                <img alt="Adithi" src={`https://media.discordapp.net/attachments/737348411568685066/996841172372824184/YT_AVATAR_NET.jpg`} width="160" height="160" className={`bg-neutral-700 w-[160px] h-[160px] rounded-full`} />
+                <img alt="Adithi" src={`https://cdn.discordapp.com/attachments/1070755738563125390/1081995828606013460/IMG_3081.gif`} width="160" height="160" className={`bg-neutral-700 w-[160px] h-[160px] rounded-full`} />
                 <div className={`bg-[#040404] rounded-full px-[4px] py-[1px] flex items-center absolute bottom-0 right-4`}>
                   <Tippy content="Online" animation="shift-away" arrow={false}>
                     <i className={`fad fa-circle text-2xl text-online`} />
@@ -56,7 +56,7 @@ Hi, I am Adithi. I am a Discord community manager. I am also interested in softw
                   .map((_, __) => (
                     <a
                       key={__}
-                      href={`https://github.com/umutxyp/`+_.name}
+                      href={`https://github.com/adithii/`+_.name}
                       target="_blank"
                       rel="noreferrer"
                       className="bg-[#191932]/20 p-4 hover:bg-[#191932]/30 shadow-lg hover:shadow-xl transition-all duration-200 rounded-lg w-full"
