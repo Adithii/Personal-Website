@@ -2,17 +2,17 @@ export default async (req, res) => {
   const data = [
     {
       id: 1,
-      image: "https://media.discordapp.net/attachments/737348411568685066/954502826791428136/codeshare_logo.png",
-      name: "Code Share",
-      description: "Discord türkiyenin en büyük discord bot komutları arşivi ve en büyük discord botu uptime, hostlayıcı websitesi. Code Share veritabanında discord botlarına özgü yüzlerce discord bot komutu bulunmaktadır ve kendi discord botunuzu yaratmanıza yardımcı olur.",
-      link: "https://codeshare.me",
+      image: "https://cdn.discordapp.com/icons/895991621487824926/bc7234d56b900f12c609080b7b565978.png",
+      name: "Mozzarella",
+      description: "Mozzarella, Create Forever çatısı altında açılan bir sunucudur. Sosyalleşebileceğiniz ve sohbet edebileceğiniz, ilgi alanınıza göre roller alıp bunları paylaşarak üyelerimizden görüşler alabileceğiniz, yeni arkadaşlar edinip oyun oynayabileceğiniz; En önemlisi yeteneklerinizi sergileyebileceğiniz bir sunucudur.",
+      link: "https://discord.gg/mozzarella",
     },
     {
       id: 2,
-      image: "https://media.discordapp.net/attachments/737348411568685066/999563078079361074/YT_AVATAR_NET.jpg",
-      name: "Youtube Channel",
-      description: "I am a professional editor and intermediate software developer. I have been professionally interested in community management and development for 5 years, I have high level knowledge and experience in areas such as community management and social media management. I post videos about discord on my youtube channel.",
-      link: "https://youtube.com/UmutBayraktarYT",
+      image: "https://cdn.discordapp.com/icons/793161701205737493/a_d45e5201d54477d9f441665c0ff19fef.gif",
+      name: "xMGStarz",
+      description: "Roblox Türkiye'nin en kaliteli ve özgün içeriklerini paylaşan YouTube kanalı. Discord sunucusunda kaliteli sohbet, mizah ve çekilişler bulunmakta. Girersen birdaha çıkamazısın. :)",
+      link: "https://youtube.com/xMGStarz",
     }
   ];
   res.status(200).json(data);
